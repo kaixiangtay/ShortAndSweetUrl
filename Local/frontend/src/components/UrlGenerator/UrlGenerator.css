@@ -1,0 +1,32 @@
+.title {
+  padding: 0.5rem 1rem 0.5rem 0;
+}
+
+.container h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+
+.container h1 span {
+  margin-left: 1rem;
+  color: var(--primary-color);
+}
+
+.container div {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.container button {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10rem;
+  padding: 0 1.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 10px;
+}
