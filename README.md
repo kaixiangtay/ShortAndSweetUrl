@@ -65,22 +65,23 @@
 ### Local Run
 1.  Clone the repository folder Local
 
+2. Create AWS RDS database and add in RDS credentials to .env file (template provided) 
 
-2.  Inside the repository, execute following commands to deploy
+3.  Inside the repository, execute following commands to deploy
     backend:
     - `cd local/backend/server`
     - `npm install`
     - `npm start`
 
 
-3. Inside the repository, execute following commands to deploy
+4. Inside the repository, execute following commands to deploy
    frontend:
     - `cd local/frontend`
     - `npm install`
     - `npm start`
    
 
-4. Inside the repository, execute following commands to run automated testing:
+5. Inside the repository, execute following commands to run automated testing:
     - `cd local/backend/server`
     - `npm test`
 
